@@ -1,0 +1,40 @@
+*{padding: 0; margin: 0;}
+a{
+	text-decoration:none;
+	color: #333;
+	font-size: 12px;
+}
+ul li,ol li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+
+h1,h2{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+.clearfix:after{
+	content:"";
+	clear:both;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+.f{
+	float: left;
+}
+.r{
+	float: right;
+}

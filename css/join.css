@@ -1,0 +1,85 @@
+
+/* 版心宽度 */
+.typePage{
+    width: 1090px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Microsoft Yahei","微软雅黑",verdana;
+}
+
+.main{
+    height:600px ;
+    width: 100%;
+    background: url(../img/denglu/denglu-1.jpg) no-repeat center;
+}
+
+.join{
+    width: 384px;
+    height: 300px;
+    background-color:#ffffff;
+    padding: 30px 40px 83px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px 0 #ccc;
+    margin-top: 150px;
+}
+
+.join-center-tet,.join-center-pass{
+    width: 300px;
+    height: 38px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.join-center-tet-icon{
+    width: 36px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    padding: 8px 0 7px 4px;
+    box-sizing: border-box;
+}
+
+.join-title{
+    font-size: 24px;
+    text-align: center;
+    color:  #cc9756;
+    margin-bottom: 10px;
+}
+
+.join-center-tet-icon-nen{
+    width: 29px;
+    height: 24px;
+    border-right: 1px solid #ccc !important;
+    transition: all 0.5s;
+}
+
+.tet,.pass{
+    width: 264px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: none;
+}
+
+.btn{
+    width: 100%;
+    height: 48px;
+    background-color: #cccccc;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    margin-top: 5px;
+}
+
+.regs{
+    color: red !important;
+    font-size: 12px;
+}

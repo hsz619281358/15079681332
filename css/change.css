@@ -1,0 +1,232 @@
+/* 版心宽度 */
+.typePage{
+    width: 90%;
+    min-width: 410px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Microsoft Yahei","微软雅黑",verdana;
+    background-color: #f8f8f8;
+    height: 100%;
+}
+
+/* main */
+.header{
+    height: 64px;
+    background-color: #ffffff;
+    margin-bottom: 22px;
+    min-width: 410px;
+    line-height: 64px;
+}
+
+.u-logo{
+    width: 168px;
+    height: 64px;
+}
+
+.u-img{
+    width: 168px;
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.u-lh-txt,.u-lh,.u-lg-new{
+    display: inline-block;
+}
+
+.u-lh-txt{
+    color: #222222;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.u-lh-txt:hover{
+    color: #2c82ff;
+}
+
+.u-lg-new{
+    background-color: #fe4313;
+    border-radius: 12px;
+    width: 32px;
+    height: 16px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    top: -2px;
+}
+
+/* header end */
+
+/* main */
+.change{
+    width: 90%;
+    max-width: 1100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    
+}
+
+.change-main{
+    max-width: 540px;
+    position: relative;
+    min-width: 410px;
+    margin: 0 auto;
+}
+
+.main-top{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.step{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: #cdcdcd;
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto 10px;
+    font-size: 20px;
+    border: 2px solid #cdcdcd;
+}
+
+.stepcurrent{
+    color: #2c82ff;
+    font-weight: 700;
+}
+
+.stepcurrent .number{
+    border: 2px solid  #2c82ff;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    background-color: #f2f2f2;
+    top: 21px;
+    width: calc(100% - 43px);
+    left: calc(50% + 22px);
+}
+
+.deng-lu a{
+    font-size: 10px;
+    color: #2c82ff;
+}
+
+.deng-lu a:hover{
+    color: #0054d2;
+}
+
+.box2{
+    padding:20px 0;
+    margin: 20px auto 0;
+    width: 90%;
+    max-width: 540px;
+    min-width: 410px;
+    display: none;
+}
+
+.box{
+    padding:20px 0;
+    margin: 20px auto 0;
+    width: 90%;
+    max-width: 540px;
+    min-width: 410px;
+}
+
+.okok{
+    width: 150px;
+    height: 150px;
+    background-color: #2c82ff ;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.go-to-yx{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    color:  #2c82ff;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.tet,.pass{
+    width: 538px;
+    height: 46px;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 3px;
+    padding:8px 16px 8px 17px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #ffffff;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+.tet:hover,.pass:hover{
+    border: 1px solid #2c82ff;
+    box-shadow: 0 0 5px 0  #2c82ff;
+}
+
+.next-button{
+    width: 538px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color: #2c82ff;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+[name="ty"]{
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+.foot{
+    padding-top: 46px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #b8b8b8;
+}
+
+.foot a{
+    font-size: 10px;
+    margin: 0 5px;
+    color:#b8b8b8 ;
+}
+
+.foot a:hover{
+    color: #2c82ff;
+}
+
+.foot-main{
+    margin: 6px 0;
+}

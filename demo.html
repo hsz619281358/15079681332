@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <input type="text" name="id" id="" value="1"><button>点击</button>
+    <div></div>
+    <script src="./js/ajax.js"></script>
+    <script>
+        var inp = document.querySelector('input')
+        var btn = document.querySelector('button')
+        
+        btn.onclick = function(){
+            var val = inp.value
+            if(val.length>0){
+                Ajax({
+                    url:'./php/details.php',
+                    data:`value=${(val-1)*5}`,
+                    datatype:'json',
+                    success:function(dt){
+                        
+                        console.log(dt);
+                        var str = ''
+                        dt.forEach(item => {
+                            str+=`
+                            <img src=${item.img}>
+                            `
+                        });
+                        document.querySelector('div').innerHTML = str
+                    }
+                })
+                
+            }else{
+                document.querySelector('div').innerHTML = ''
+            }
+        }
+    </script>
+
+</body>
+</html>

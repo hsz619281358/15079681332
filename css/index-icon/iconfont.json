@@ -1,0 +1,37 @@
+{
+  "id": "2278633",
+  "name": "pc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "814462",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "1159892",
+      "name": "wifi",
+      "font_class": "wifi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1203557",
+      "name": "客服",
+      "font_class": "linedesign-20",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "169951",
+      "name": "发言2",
+      "font_class": "fayan2",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    }
+  ]
+}
